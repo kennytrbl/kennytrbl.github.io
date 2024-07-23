@@ -1,0 +1,67 @@
+.about {
+  margin: auto;
+  text-align: left;
+}
+
+.leftPanel {
+  float: left;
+  position: static;
+  width: 50%;
+}
+
+.leftPanel div {
+  width: 90%;
+}
+
+.leftPanel a {
+  /* color: #e2e8f0; */
+  color: black;
+  text-decoration: none;
+}
+
+.contact {
+  padding-top: 20px;
+}
+
+.contact a {
+  padding-right: 24px;
+}
+
+.contact img {
+  height: 24px;
+  width: 24px;
+}
+
+.rightPanel {
+  float: right;
+  padding-top: 20px;
+  width: 50%;
+}
+
+.rightPanel div {
+  float: right;
+  width: 90%;
+}
+
+.rightPanel div img {
+  display: block;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+@media screen and (max-width: 1023px) {
+  .leftPanel {
+    float: none;
+    width: 100%;
+  }
+
+  .contact {
+    padding-bottom: 20px;
+  }
+
+  .rightPanel {
+    display: none;
+  }
+}
