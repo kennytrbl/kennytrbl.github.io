@@ -1,34 +1,13 @@
 :root {
-  /* background-color: #0f172a; */
-  /* color: #e2e8f0; */
-  font-family: "Roboto";
+  background-color: #27374d;
+  color: #9db2bf;
   font-size: 1.2rem;
   margin: auto;
-  margin-bottom: 50px;
-  overflow: -moz-scrollbars-none;
-  scrollbar-width: none;
-  width: 80%;
+  width: 90%;
 }
 
 ::-webkit-scrollbar {
-  background: transparent;
-  height: 0;
-  width: 0;
-}
-
-.nav-menu-items ul {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.nav-menu-items li {
-  font-weight: bold;
-  list-style-type: none;
-  padding: 14px 24px;
-}
-
-.nav-menu-items li a {
-  /* color: #e2e8f0; */
-  color: black;
-  text-decoration: none;
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
