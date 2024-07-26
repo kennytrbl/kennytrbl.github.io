@@ -1,0 +1,18 @@
+.contact {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+  margin-left: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.contact a {
+  padding-right: 24px;
+}
+
+.contact img {
+  height: 24px;
+  width: 24px;
+}

@@ -1,10 +1,16 @@
-.about {
-  padding-top: 20px;
-  padding-bottom: 20px;
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .leftPanel {
-  /* background-color: black; */
   float: left;
   width: 30%;
 }
@@ -18,28 +24,29 @@
   text-decoration: underline;
 }
 
-.contact a {
-  padding-right: 24px;
-}
-
-.contact img {
-  height: 24px;
-  width: 24px;
+.leftPanel img {
+  padding-bottom: 10px;
+  height: auto;
+  width: 100%;
 }
 
 .rightPanel {
-  /* background-color: grey; */
   float: right;
-  width: 70%;
+  width: 65%;
 }
 
-@media screen and (max-width: 1023px) {
+.rightPanel a {
+  color: #1ce0e0;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1366px) {
   .leftPanel {
     float: none;
     width: 100%;
   }
 
   .rightPanel {
-    display: none;
+    width: 100%;
   }
 }
