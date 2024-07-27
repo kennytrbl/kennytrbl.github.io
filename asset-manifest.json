@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.901fb0d4.css",
-    "main.js": "/static/js/main.6e57ab58.js",
+    "main.js": "/static/js/main.19fb6a45.js",
     "static/js/453.09c877ff.chunk.js": "/static/js/453.09c877ff.chunk.js",
     "static/media/millisecond-calculator.webp": "/static/media/millisecond-calculator.be417dd6e1e8e989994c.webp",
     "static/media/hs-playlist.webp": "/static/media/hs-playlist.a038193f89b43a7cb2ef.webp",
     "static/media/bts-discharge-countdown.webp": "/static/media/bts-discharge-countdown.6e7650b815d4e6889e46.webp",
     "static/media/data-science-project.webp": "/static/media/data-science-project.b745cc5c2e153cb870a4.webp",
     "static/media/resource.webp": "/static/media/resource.c63ead03331cf79b6237.webp",
+    "static/media/playlist.webp": "/static/media/playlist.defbd82bd5180f7d5036.webp",
     "static/media/public-discord-birthday-bot.webp": "/static/media/public-discord-birthday-bot.2177e63c59c02de87586.webp",
     "static/media/discord-panda-bot.webp": "/static/media/discord-panda-bot.4cc712839d7ac1c37e73.webp",
     "static/media/python.webp": "/static/media/python.98eaeb2d06100bed0dd8.webp",
@@ -16,11 +17,11 @@
     "static/media/is-it-friday-yet.webp": "/static/media/is-it-friday-yet.1965a51861ba75b86f2d.webp",
     "index.html": "/index.html",
     "main.901fb0d4.css.map": "/static/css/main.901fb0d4.css.map",
-    "main.6e57ab58.js.map": "/static/js/main.6e57ab58.js.map",
+    "main.19fb6a45.js.map": "/static/js/main.19fb6a45.js.map",
     "453.09c877ff.chunk.js.map": "/static/js/453.09c877ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.901fb0d4.css",
-    "static/js/main.6e57ab58.js"
+    "static/js/main.19fb6a45.js"
   ]
 }
