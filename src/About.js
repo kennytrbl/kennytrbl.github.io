@@ -64,6 +64,12 @@ class About extends Component {
             .
           </p> */}
           <Project
+            image={require("./img/playlist.webp")}
+            name="Playlist"
+            link="https://playlist-swart.vercel.app/"
+            description="What I am listening to on Spotify and Youtube."
+          />
+          <Project
             image={require("./img/data-science-project.webp")}
             name="Data Science Project"
             link="https://kennytrbl.github.io/data-science-project/"
