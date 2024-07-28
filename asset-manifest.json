@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.901fb0d4.css",
-    "main.js": "/static/js/main.19fb6a45.js",
+    "main.css": "/static/css/main.af6cbda0.css",
+    "main.js": "/static/js/main.18314a7d.js",
     "static/js/453.09c877ff.chunk.js": "/static/js/453.09c877ff.chunk.js",
     "static/media/millisecond-calculator.webp": "/static/media/millisecond-calculator.be417dd6e1e8e989994c.webp",
     "static/media/hs-playlist.webp": "/static/media/hs-playlist.a038193f89b43a7cb2ef.webp",
@@ -16,12 +16,12 @@
     "static/media/year-progress.webp": "/static/media/year-progress.1a9c8ea0fbe61e03ebd3.webp",
     "static/media/is-it-friday-yet.webp": "/static/media/is-it-friday-yet.1965a51861ba75b86f2d.webp",
     "index.html": "/index.html",
-    "main.901fb0d4.css.map": "/static/css/main.901fb0d4.css.map",
-    "main.19fb6a45.js.map": "/static/js/main.19fb6a45.js.map",
+    "main.af6cbda0.css.map": "/static/css/main.af6cbda0.css.map",
+    "main.18314a7d.js.map": "/static/js/main.18314a7d.js.map",
     "453.09c877ff.chunk.js.map": "/static/js/453.09c877ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.901fb0d4.css",
-    "static/js/main.19fb6a45.js"
+    "static/css/main.af6cbda0.css",
+    "static/js/main.18314a7d.js"
   ]
 }
