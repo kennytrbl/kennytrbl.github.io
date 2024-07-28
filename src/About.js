@@ -56,13 +56,13 @@ class About extends Component {
 
         <div className="rightPanel">
           <h1>Projects</h1>
-          {/* <p>
+          <p>
             More projects on{" "}
             <a href="https://github.com/kennytrbl" target="__blank">
               Github
             </a>
             .
-          </p> */}
+          </p>
           <Project
             image={require("./img/playlist.webp")}
             name="Playlist"
@@ -142,7 +142,6 @@ class About extends Component {
             }
           />
         </div>
-
         <Contact />
       </div>
     );

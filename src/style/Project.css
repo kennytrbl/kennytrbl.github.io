@@ -17,6 +17,7 @@
 .projectName {
   position: absolute;
   bottom: 8px;
+  left: 8px;
   right: 8px;
   margin: 0;
   font-size: 1rem;
