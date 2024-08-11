@@ -64,6 +64,12 @@ class About extends Component {
             .
           </p>
           <Project
+            image={require("./img/math-symbol.webp")}
+            name="Math Symbol"
+            link="https://kennytrbl.github.io/math-symbols/"
+            description="A website for finding and copying math symbols."
+          />
+          <Project
             image={require("./img/playlist.webp")}
             name="Playlist"
             link="https://playlist-swart.vercel.app/"

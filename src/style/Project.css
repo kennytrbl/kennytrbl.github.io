@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.project:hover {
+  cursor: pointer;
+}
+
 .projectImage {
   display: block;
   width: 200px;
