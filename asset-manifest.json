@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.af6cbda0.css",
-    "main.js": "/static/js/main.18314a7d.js",
+    "main.css": "/static/css/main.ec25edd7.css",
+    "main.js": "/static/js/main.350cb7fd.js",
     "static/js/453.09c877ff.chunk.js": "/static/js/453.09c877ff.chunk.js",
     "static/media/millisecond-calculator.webp": "/static/media/millisecond-calculator.be417dd6e1e8e989994c.webp",
     "static/media/hs-playlist.webp": "/static/media/hs-playlist.a038193f89b43a7cb2ef.webp",
     "static/media/bts-discharge-countdown.webp": "/static/media/bts-discharge-countdown.6e7650b815d4e6889e46.webp",
     "static/media/data-science-project.webp": "/static/media/data-science-project.b745cc5c2e153cb870a4.webp",
     "static/media/resource.webp": "/static/media/resource.c63ead03331cf79b6237.webp",
-    "static/media/playlist.webp": "/static/media/playlist.defbd82bd5180f7d5036.webp",
     "static/media/public-discord-birthday-bot.webp": "/static/media/public-discord-birthday-bot.2177e63c59c02de87586.webp",
     "static/media/discord-panda-bot.webp": "/static/media/discord-panda-bot.4cc712839d7ac1c37e73.webp",
     "static/media/python.webp": "/static/media/python.98eaeb2d06100bed0dd8.webp",
+    "static/media/playlist.webp": "/static/media/playlist.b501961dcb5b050f1e45.webp",
     "static/media/volunteering.webp": "/static/media/volunteering.01d117a6b50cd4621e3d.webp",
     "static/media/year-progress.webp": "/static/media/year-progress.1a9c8ea0fbe61e03ebd3.webp",
+    "static/media/math-symbol.webp": "/static/media/math-symbol.d2543fd4f8514530bf4f.webp",
     "static/media/is-it-friday-yet.webp": "/static/media/is-it-friday-yet.1965a51861ba75b86f2d.webp",
     "index.html": "/index.html",
-    "main.af6cbda0.css.map": "/static/css/main.af6cbda0.css.map",
-    "main.18314a7d.js.map": "/static/js/main.18314a7d.js.map",
+    "main.ec25edd7.css.map": "/static/css/main.ec25edd7.css.map",
+    "main.350cb7fd.js.map": "/static/js/main.350cb7fd.js.map",
     "453.09c877ff.chunk.js.map": "/static/js/453.09c877ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af6cbda0.css",
-    "static/js/main.18314a7d.js"
+    "static/css/main.ec25edd7.css",
+    "static/js/main.350cb7fd.js"
   ]
 }
