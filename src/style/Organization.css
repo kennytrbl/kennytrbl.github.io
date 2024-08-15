@@ -1,0 +1,27 @@
+.organization {
+  position: relative;
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 8px;
+  box-sizing: border-box;
+  padding-right: 8px;
+}
+
+.organization:hover {
+  cursor: pointer;
+}
+
+.orgImage {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 1024px) {
+  .orgImage {
+    width: 125px;
+    height: 125px;
+  }
+}

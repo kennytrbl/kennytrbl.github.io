@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "./style/About.css";
-import image from "./img/volunteering.webp";
 import Project from "./Project";
+import Organization from "./Organization";
 import Contact from "./Contact";
+import Carousel from "./Carousel";
 
 class About extends Component {
   render() {
@@ -48,10 +49,8 @@ class About extends Component {
             </a>
             , consuming <a href="https://www.youtube.com/@mkbhd">tech news</a>,
             and volunteering for various causes in the San Francisco Bay Area.
-            (That is me on the far right!)
           </p>
-
-          <img src={image} />
+          <Carousel />
         </div>
 
         <div className="rightPanel">
@@ -146,6 +145,38 @@ class About extends Component {
             description={
               "A website deployed for memories, showcasing an old high school playlist project."
             }
+          />
+          <h1>Organizations</h1>
+          <p>Here is a list of organizations for which I volunteer for.</p>
+          <Organization
+            image={require("./img/compassionlogo.webp")}
+            link="https://www.instagram.com/compassioninoakland/"
+            description={"Compassion in Oakland"}
+          />
+          <Organization
+            image={require("./img/cvclogo.webp")}
+            link="https://www.instagram.com/chinatownvolunteercoalition/"
+            description={"Chinatown Volunteer Coalition"}
+          />
+          <Organization
+            image={require("./img/asiansarestronglogo.webp")}
+            link="https://www.instagram.com/asiansarestrong/"
+            description={"Asians Are Strong"}
+          />
+          <Organization
+            image={require("./img/ocaeastbaylogo.webp")}
+            link="https://www.instagram.com/ocaeastbay/"
+            description={"OCA East Bay"}
+          />
+          <Organization
+            image={require("./img/ahslogo.webp")}
+            link="https://asianhealthservices.org/"
+            description={"Asian Health Services"}
+          />
+          <Organization
+            image={require("./img/ociclogo.webp")}
+            link="https://www.ocic-ca.org/"
+            description={"Oakland Chinatown Improvement Council"}
           />
         </div>
         <Contact />

@@ -5,14 +5,32 @@
   margin-left: 5px;
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 100%;
+  width: 25%;
 }
 
 .contact a {
   padding-right: 24px;
 }
 
-.contact img {
+.contact svg {
   height: 24px;
   width: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact {
+    justify-content: center;
+    margin-left: 0px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .contact a {
+    padding-right: 36px;
+  }
+
+  .contact svg {
+    height: 36px;
+    width: 36px;
+  }
 }

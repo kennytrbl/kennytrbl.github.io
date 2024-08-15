@@ -1,0 +1,11 @@
+img {
+  width: 100%;
+  height: 384px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .mySlides {
+    height: 300px;
+  }
+}

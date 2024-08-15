@@ -4,12 +4,6 @@ body {
   margin: 0;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 .leftPanel {
   float: left;
   width: 30%;
@@ -26,18 +20,21 @@ body {
 
 .leftPanel img {
   padding-bottom: 10px;
-  height: auto;
-  width: 100%;
 }
 
 .rightPanel {
   float: right;
+  padding-bottom: 40px;
   width: 65%;
 }
 
 .rightPanel a {
   color: #1ce0e0;
   text-decoration: none;
+}
+
+.contact {
+  display: none;
 }
 
 @media screen and (max-width: 1366px) {
