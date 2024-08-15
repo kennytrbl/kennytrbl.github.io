@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec25edd7.css",
-    "main.js": "/static/js/main.350cb7fd.js",
+    "main.css": "/static/css/main.3a4808ed.css",
+    "main.js": "/static/js/main.2ce508f1.js",
     "static/js/453.09c877ff.chunk.js": "/static/js/453.09c877ff.chunk.js",
+    "static/media/volunteering4.webp": "/static/media/volunteering4.bb91ff2c1768dc54bbef.webp",
+    "static/media/volunteering.webp": "/static/media/volunteering.dffb5886ea4b8a1b7874.webp",
+    "static/media/volunteering2.webp": "/static/media/volunteering2.6d39c3f7fc4625121df3.webp",
     "static/media/millisecond-calculator.webp": "/static/media/millisecond-calculator.be417dd6e1e8e989994c.webp",
     "static/media/hs-playlist.webp": "/static/media/hs-playlist.a038193f89b43a7cb2ef.webp",
+    "static/media/volunteering5.webp": "/static/media/volunteering5.83e7e7276816e037b087.webp",
+    "static/media/volunteering6.webp": "/static/media/volunteering6.23b491a4419259721e2a.webp",
     "static/media/bts-discharge-countdown.webp": "/static/media/bts-discharge-countdown.6e7650b815d4e6889e46.webp",
     "static/media/data-science-project.webp": "/static/media/data-science-project.b745cc5c2e153cb870a4.webp",
     "static/media/resource.webp": "/static/media/resource.c63ead03331cf79b6237.webp",
@@ -12,17 +17,23 @@
     "static/media/discord-panda-bot.webp": "/static/media/discord-panda-bot.4cc712839d7ac1c37e73.webp",
     "static/media/python.webp": "/static/media/python.98eaeb2d06100bed0dd8.webp",
     "static/media/playlist.webp": "/static/media/playlist.b501961dcb5b050f1e45.webp",
-    "static/media/volunteering.webp": "/static/media/volunteering.01d117a6b50cd4621e3d.webp",
+    "static/media/volunteering3.webp": "/static/media/volunteering3.01d117a6b50cd4621e3d.webp",
     "static/media/year-progress.webp": "/static/media/year-progress.1a9c8ea0fbe61e03ebd3.webp",
+    "static/media/cvclogo.webp": "/static/media/cvclogo.180e377f9b350f59db3f.webp",
+    "static/media/compassionlogo.webp": "/static/media/compassionlogo.fef9dbe6312cad04aecc.webp",
     "static/media/math-symbol.webp": "/static/media/math-symbol.d2543fd4f8514530bf4f.webp",
+    "static/media/ahslogo.webp": "/static/media/ahslogo.3950151b8dfe4203fb89.webp",
+    "static/media/ocaeastbaylogo.webp": "/static/media/ocaeastbaylogo.8b76c2b66cb7a9ef1fb2.webp",
+    "static/media/asiansarestronglogo.webp": "/static/media/asiansarestronglogo.bcfc97127d04d05c0b6b.webp",
     "static/media/is-it-friday-yet.webp": "/static/media/is-it-friday-yet.1965a51861ba75b86f2d.webp",
+    "static/media/ociclogo.webp": "/static/media/ociclogo.95de063ab71170da9f51.webp",
     "index.html": "/index.html",
-    "main.ec25edd7.css.map": "/static/css/main.ec25edd7.css.map",
-    "main.350cb7fd.js.map": "/static/js/main.350cb7fd.js.map",
+    "main.3a4808ed.css.map": "/static/css/main.3a4808ed.css.map",
+    "main.2ce508f1.js.map": "/static/js/main.2ce508f1.js.map",
     "453.09c877ff.chunk.js.map": "/static/js/453.09c877ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec25edd7.css",
-    "static/js/main.350cb7fd.js"
+    "static/css/main.3a4808ed.css",
+    "static/js/main.2ce508f1.js"
   ]
 }
