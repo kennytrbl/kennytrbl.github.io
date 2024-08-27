@@ -46,9 +46,10 @@ class About extends Component {
             , watching{" "}
             <a href="https://www.netflix.com/title/81159258" target="_blank">
               Korean dramas
-            </a>
-            , consuming <a href="https://www.youtube.com/@mkbhd">tech news</a>,
-            and volunteering for various causes in the San Francisco Bay Area.
+            </a>{" "}
+            and basketball, consuming{" "}
+            <a href="https://www.youtube.com/@mkbhd">tech news</a>, and
+            volunteer with AAPI groups in the San Francisco Bay Area.
           </p>
           <Carousel />
         </div>
@@ -62,6 +63,12 @@ class About extends Component {
             </a>
             .
           </p>
+          <Project
+            image={require("./img/noodle-tracker.webp")}
+            name="Noodle Tracker"
+            link="https://kenny-noodle-tracker.vercel.app/"
+            description="A website for tracking the noodles I have eaten."
+          />
           <Project
             image={require("./img/math-symbol.webp")}
             name="Math Symbol"
