@@ -3,7 +3,9 @@ import "./style/Organization.css";
 
 const Organization = ({ image, link, description }) => {
   const handleClick = () => {
-    window.open(link, "_blank");
+    if (link) {
+      window.open(link, "_blank");
+    }
   };
 
   return (

@@ -176,14 +176,24 @@ class About extends Component {
             description={"OCA East Bay"}
           />
           <Organization
-            image={require("./img/ahslogo.webp")}
-            link="https://asianhealthservices.org/"
-            description={"Asian Health Services"}
-          />
-          <Organization
             image={require("./img/ociclogo.webp")}
             link="https://www.ocic-ca.org/"
             description={"Oakland Chinatown Improvement Council"}
+          />
+          <Organization
+            image={require("./img/wekeepussafelogo.webp")}
+            link=""
+            description={"We Keep Us Safe"}
+          />
+          <Organization
+            image={require("./img/occclogo.webp")}
+            link="https://oaklandchinatownchamber.org/"
+            description={"Oakland Chinatown Chamber of Commerce"}
+          />
+          <Organization
+            image={require("./img/aysclogo.webp")}
+            link="https://www.asianyouthservicescommittee.org/"
+            description={"Asian Youth Services Committee"}
           />
         </div>
         <Contact />
