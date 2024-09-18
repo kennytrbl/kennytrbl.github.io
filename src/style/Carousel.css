@@ -1,11 +1,29 @@
 img {
   width: 100%;
-  height: 384px;
+  height: 400px;
   object-fit: contain;
+}
+
+@media (max-width: 1440px) {
+  img {
+    height: 350px;
+  }
 }
 
 @media (max-width: 768px) {
   .mySlides {
     height: 300px;
+  }
+}
+
+@media (max-width: 430px) {
+  img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  img {
+    height: 200px;
   }
 }

@@ -23,7 +23,7 @@ class About extends Component {
             values are critical to my development as a software engineer. If you
             are an employer, check out my{" "}
             <a
-              href="https://drive.google.com/file/d/1HiWjAGNcKjxoN5Ke5-bG9mL0qq7Eqkwo/view?usp=sharing"
+              href="https://drive.google.com/file/d/1br1CkeR1LAKvVavwHvzdjrBExILcaOPs/view?usp=sharing"
               target="_blank"
             >
               résumé
@@ -47,9 +47,15 @@ class About extends Component {
             <a href="https://www.netflix.com/title/81159258" target="_blank">
               Korean dramas
             </a>{" "}
-            and basketball, consuming{" "}
-            <a href="https://www.youtube.com/@mkbhd">tech news</a>, and
-            volunteer with AAPI groups in the San Francisco Bay Area.
+            and{" "}
+            <a
+              href="https://www.youtube.com/watch?v=xf-zV1uTkW0&t=203s"
+              target="_blank"
+            >
+              basketball
+            </a>{" "}
+            , consuming <a href="https://www.youtube.com/@mkbhd">tech news</a>,
+            and volunteer with AAPI groups in the San Francisco Bay Area.
           </p>
           <Carousel />
         </div>
