@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f88a1ab.css",
-    "main.js": "/static/js/main.fab2bc23.js",
+    "main.css": "/static/css/main.9e6a897a.css",
+    "main.js": "/static/js/main.47477cdc.js",
     "static/js/453.09c877ff.chunk.js": "/static/js/453.09c877ff.chunk.js",
     "static/media/volunteering4.webp": "/static/media/volunteering4.bb91ff2c1768dc54bbef.webp",
     "static/media/volunteering.webp": "/static/media/volunteering.dffb5886ea4b8a1b7874.webp",
@@ -27,12 +27,12 @@
     "static/media/is-it-friday-yet.webp": "/static/media/is-it-friday-yet.1965a51861ba75b86f2d.webp",
     "static/media/wekeepussafelogo.webp": "/static/media/wekeepussafelogo.545421d8afdee5fe4a7c.webp",
     "index.html": "/index.html",
-    "main.0f88a1ab.css.map": "/static/css/main.0f88a1ab.css.map",
-    "main.fab2bc23.js.map": "/static/js/main.fab2bc23.js.map",
+    "main.9e6a897a.css.map": "/static/css/main.9e6a897a.css.map",
+    "main.47477cdc.js.map": "/static/js/main.47477cdc.js.map",
     "453.09c877ff.chunk.js.map": "/static/js/453.09c877ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f88a1ab.css",
-    "static/js/main.fab2bc23.js"
+    "static/css/main.9e6a897a.css",
+    "static/js/main.47477cdc.js"
   ]
 }
