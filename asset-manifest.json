@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e6a897a.css",
-    "main.js": "/static/js/main.47477cdc.js",
+    "main.css": "/static/css/main.ca7be933.css",
+    "main.js": "/static/js/main.619ed010.js",
     "static/js/453.09c877ff.chunk.js": "/static/js/453.09c877ff.chunk.js",
     "static/media/volunteering4.webp": "/static/media/volunteering4.bb91ff2c1768dc54bbef.webp",
     "static/media/volunteering.webp": "/static/media/volunteering.dffb5886ea4b8a1b7874.webp",
@@ -25,14 +25,13 @@
     "static/media/math-symbol.webp": "/static/media/math-symbol.d2543fd4f8514530bf4f.webp",
     "static/media/asiansarestronglogo.webp": "/static/media/asiansarestronglogo.bcfc97127d04d05c0b6b.webp",
     "static/media/is-it-friday-yet.webp": "/static/media/is-it-friday-yet.1965a51861ba75b86f2d.webp",
-    "static/media/wekeepussafelogo.webp": "/static/media/wekeepussafelogo.545421d8afdee5fe4a7c.webp",
     "index.html": "/index.html",
-    "main.9e6a897a.css.map": "/static/css/main.9e6a897a.css.map",
-    "main.47477cdc.js.map": "/static/js/main.47477cdc.js.map",
+    "main.ca7be933.css.map": "/static/css/main.ca7be933.css.map",
+    "main.619ed010.js.map": "/static/js/main.619ed010.js.map",
     "453.09c877ff.chunk.js.map": "/static/js/453.09c877ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e6a897a.css",
-    "static/js/main.47477cdc.js"
+    "static/css/main.ca7be933.css",
+    "static/js/main.619ed010.js"
   ]
 }
