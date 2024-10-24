@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import "./style/About.css";
 import Project from "./Project";
 import Organization from "./Organization";
-import Contact from "./Contact";
+import Social from "./Social";
 import Carousel from "./Carousel";
+import Contact from "./Contact";
 
 class About extends Component {
   render() {
@@ -159,7 +160,7 @@ class About extends Component {
               "A website deployed for memories, showcasing an old high school playlist project."
             }
           />
-          <h1>Organizations</h1>
+          <h1>Volunteer Organizations</h1>
           <p>Here is a list of organizations for which I volunteer for.</p>
           <Organization
             image={require("./img/compassionlogo.webp")}
@@ -176,13 +177,10 @@ class About extends Component {
             link="https://www.instagram.com/asiansarestrong/"
             description={"Asians Are Strong"}
           />
-          <Organization
-            image={require("./img/wekeepussafelogo.webp")}
-            link=""
-            description={"We Keep Us Safe"}
-          />
+          <h1>Contact Me</h1>
+          <Contact />
         </div>
-        <Contact />
+        <Social />
       </div>
     );
   }
