@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5987725d.css",
-    "main.js": "/static/js/main.619ed010.js",
+    "main.css": "/static/css/main.fa247a93.css",
+    "main.js": "/static/js/main.2bf40ec8.js",
     "static/js/453.09c877ff.chunk.js": "/static/js/453.09c877ff.chunk.js",
     "static/media/volunteering4.webp": "/static/media/volunteering4.bb91ff2c1768dc54bbef.webp",
     "static/media/volunteering.webp": "/static/media/volunteering.dffb5886ea4b8a1b7874.webp",
@@ -26,12 +26,12 @@
     "static/media/asiansarestronglogo.webp": "/static/media/asiansarestronglogo.bcfc97127d04d05c0b6b.webp",
     "static/media/is-it-friday-yet.webp": "/static/media/is-it-friday-yet.1965a51861ba75b86f2d.webp",
     "index.html": "/index.html",
-    "main.5987725d.css.map": "/static/css/main.5987725d.css.map",
-    "main.619ed010.js.map": "/static/js/main.619ed010.js.map",
+    "main.fa247a93.css.map": "/static/css/main.fa247a93.css.map",
+    "main.2bf40ec8.js.map": "/static/js/main.2bf40ec8.js.map",
     "453.09c877ff.chunk.js.map": "/static/js/453.09c877ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5987725d.css",
-    "static/js/main.619ed010.js"
+    "static/css/main.fa247a93.css",
+    "static/js/main.2bf40ec8.js"
   ]
 }
