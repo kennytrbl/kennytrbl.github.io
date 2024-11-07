@@ -49,23 +49,9 @@
   opacity: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
   .projectImage {
-    width: 250px;
-    height: 250px;
-  }
-}
-
-@media screen and (max-width: 820px) {
-  .projectImage {
-    width: 300px;
-    height: 300px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .projectImage {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
   }
 }
