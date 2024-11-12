@@ -9,6 +9,8 @@ const Slideshow = () => {
     require("./img/volunteering4.webp"),
     require("./img/volunteering5.webp"),
     require("./img/volunteering6.webp"),
+    require("./img/volunteering7.webp"),
+    require("./img/volunteering8.webp"),
   ];
   const [slideIndex, setSlideIndex] = useState(0);
 
