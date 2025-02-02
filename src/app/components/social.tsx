@@ -4,7 +4,6 @@ class Social extends Component {
   render() {
     return (
       <div className="flex items-center justify-center mt-6 w-full lg:absolute lg:bottom-12 lg:items-start lg:justify-start lg:mt-0 lg:w-[25%]">
-        {/* eslint-disable */}
         <a
           href="https://github.com/kennytrbl"
           target="_blank"

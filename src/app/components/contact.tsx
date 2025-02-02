@@ -56,7 +56,7 @@ function Contact() {
           alert("Email sent successfully!");
           form.current?.reset();
         },
-        (error) => {
+        () => {
           alert("Failed to send email. Please try again.");
         }
       );
