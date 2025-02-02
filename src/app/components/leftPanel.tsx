@@ -4,7 +4,7 @@ import Carousel from "./carousel";
 class LeftPanel extends Component {
   render() {
     return (
-      <div className="float-none w-full lg:float-left lg:w-[30%] bg-white">
+      <div className="float-none w-full lg:float-left lg:w-[30%]">
         <p className="font-bold leading-none mb-4 mt-4 text-4xl tracking-tight">
           Hello,
         </p>
