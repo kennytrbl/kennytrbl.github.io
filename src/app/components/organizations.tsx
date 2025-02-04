@@ -18,14 +18,17 @@ const Organization: React.FC<OrganizationProps> = ({
   };
 
   return (
-    <div
-      className="box-border inline-block mt-2 mr-2 pr-2 relative hover:cursor-pointer"
-      onClick={handleClick}
-      title={description}
-    >
-      {/* eslint-disable */}
-      <img src={image} className="block w-32 h-32 object-cover rounded" />
-    </div>
+    <p className="inline-block mt-2 mr-2 pr-2 relative hover:cursor-pointer">
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        title={description}
+        className="block"
+      >
+        <img src={image} className="block object-cover rounded w-36 h-36" />
+      </a>
+    </p>
   );
 };
 

@@ -6,7 +6,7 @@ import Contact from "./contact";
 class RightPanel extends Component {
   render() {
     return (
-      <div className="w-full lg:float-right lg:w-[65%]">
+      <div className="min-h-screen w-full lg:float-right lg:w-[65%]">
         <p className="font-bold leading-none mb-4 mt-4 text-4xl tracking-tight">
           Projects
         </p>
