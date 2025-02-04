@@ -11,12 +11,6 @@ const Organization: React.FC<OrganizationProps> = ({
   link,
   description,
 }) => {
-  const handleClick = () => {
-    if (link) {
-      window.open(link, "_blank");
-    }
-  };
-
   return (
     <p className="inline-block mt-2 mr-2 pr-2 relative hover:cursor-pointer">
       <a

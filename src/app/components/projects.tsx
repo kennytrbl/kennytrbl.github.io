@@ -13,10 +13,6 @@ const Project: React.FC<ProjectProps> = ({
   link,
   description,
 }) => {
-  const handleClick = () => {
-    window.open(link, "_blank", "noopener,noreferrer");
-  };
-
   return (
     <div className="inline-block mt-2 mr-2 relative hover:cursor-pointer ">
       <a
