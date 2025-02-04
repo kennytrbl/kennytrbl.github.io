@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/noodle-tracker/:path*",
+      "destination": "https://noodle-tracker.kennyzhang.dev/:path*"
+    }
+  ]
+}

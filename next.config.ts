@@ -1,7 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: "/noodle-tracker",
+  //       destination: "https://noodle-tracker.kennyzhang.dev/",
+  //       permanent: false, // Set to false if you expect the destination URL to change
+  //     },
+  //   ];
+  // },
 };
 
 export default nextConfig;
