@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface OrganizationProps {
   image: string;
@@ -20,7 +21,13 @@ const Organization: React.FC<OrganizationProps> = ({
         title={description}
         className="block"
       >
-        <img src={image} className="block object-cover rounded w-36 h-36" />
+        <Image
+          alt=""
+          src={image}
+          height={144}
+          width={144}
+          className="block object-cover rounded"
+        />
       </a>
     </p>
   );
