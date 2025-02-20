@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 const Carousel = () => {
   const images = [
@@ -24,13 +25,15 @@ const Carousel = () => {
   }, [images.length]);
 
   return (
-    <div className="flex items-center justify-center mt-4 ">
+    <div className="flex items-center justify-start mt-6">
       {images.map((image, index) => (
-        // eslint-disable-next-line
-        <img
-          className="h-80 object-contain"
-          key={index}
+        <Image
+          alt=""
           src={image}
+          height={500}
+          width={500}
+          key={index}
+          className="h-80 object-contain"
           style={{ display: slideIndex === index ? "block" : "none" }}
         />
       ))}

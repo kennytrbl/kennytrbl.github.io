@@ -46,10 +46,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        process.env.NEXT_PUBLIC_YOUR_SERVICE_ID!,
-        process.env.NEXT_PUBLIC_YOUR_TEMPLATE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         form.current!,
-        process.env.NEXT_PUBLIC_YOUR_PUBLIC_KEY!
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       )
       .then(
         () => {
@@ -63,11 +63,7 @@ function Contact() {
   };
 
   return (
-    <form
-      ref={form}
-      onSubmit={sendEmail}
-      className="flex flex-col max-w-[500px] w-full"
-    >
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col max-w-[500px] w-full">
       <label className="mb-2 mr-2 whitespace-nowrap">Name</label>
       <input
         type="text"

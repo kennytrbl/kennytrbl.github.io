@@ -17,10 +17,7 @@ function ProjectList() {
   useEffect(() => {
     async function getProjects() {
       setLoading(true);
-      const { data, error } = await supabase
-        .from("project")
-        .select("*")
-        .order("id", { ascending: false });
+      const { data, error } = await supabase.from("project").select("*").order("id", { ascending: false });
 
       if (error) {
         console.error("Error fetching projects:", error);
