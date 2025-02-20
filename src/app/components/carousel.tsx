@@ -34,6 +34,7 @@ const Carousel = () => {
           width={500}
           key={index}
           className="h-80 object-contain"
+          priority={index === slideIndex}
           style={{ display: slideIndex === index ? "block" : "none" }}
         />
       ))}
