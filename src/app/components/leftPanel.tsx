@@ -5,15 +5,19 @@ import NowPlaying from "./nowPlaying";
 class LeftPanel extends Component {
   render() {
     return (
-      <div className="float-none w-full lg:float-left lg:w-[30%]">
-        <p className="font-bold leading-none mb-4 mt-4 text-4xl tracking-tight">Hello,</p>
+      <div className="float-none w-full lg:float-left lg:w-[40%] xl:w-[30%]">
+        <p className="font-bold leading-none mb-4 mt-4 text-4xl tracking-tight">
+          Hello,
+        </p>
         <p>
-          My name is Kenny Zhang. I recently graduated from the University of California, San Diego with a degree in
-          Mathematics and Computer Science.
+          My name is Kenny Zhang. I recently graduated from the University of
+          California, San Diego with a degree in Mathematics and Computer
+          Science.
         </p>
         <p className="mb-4 mt-4">
-          I am searching for a software engineering position with a company that encourages personal development,
-          growth, and teamwork. These values are critical to my development as a software engineer. If you are an
+          I am searching for a software engineering position with a company that
+          encourages personal development, growth, and teamwork. These values
+          are critical to my development as a software engineer. If you are an
           employer, check out my{" "}
           <a
             href="https://drive.google.com/file/d/1br1CkeR1LAKvVavwHvzdjrBExILcaOPs/view?usp=sharing"
@@ -25,8 +29,9 @@ class LeftPanel extends Component {
           .
         </p>
         <p className="mb-4 mt-4">
-          My main priority right now is honing my technical interview skills. To sharpen my programming skills, I
-          frequently build Github projects in various languages.
+          My main priority right now is honing my technical interview skills. To
+          sharpen my programming skills, I frequently build Github projects in
+          various languages.
         </p>
         <p>
           When I am not at the computer, I enjoy listening to{" "}
@@ -39,7 +44,7 @@ class LeftPanel extends Component {
           </a>
           , watching{" "}
           <a
-            href="https://www.netflix.com/title/81159258"
+            href="https://www.netflix.com/title/81707950"
             target="_blank"
             className="text-[#1ce0e0] text-decoration-none hover:underline"
           >
@@ -63,7 +68,9 @@ class LeftPanel extends Component {
           </a>
           , and volunteer with AAPI groups in the San Francisco Bay Area.
         </p>
-        <p className="font-bold leading-none mt-4 text-lg tracking-tight">Listening to:</p>
+        <p className="font-bold leading-none mt-4 text-lg tracking-tight">
+          Listening to:
+        </p>
         <NowPlaying />
         <Carousel />
       </div>
