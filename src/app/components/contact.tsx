@@ -68,18 +68,18 @@ function Contact() {
       <input
         type="text"
         name="user_name"
-        className="border border-gray-300 flex-1 p-1 mb-4 mr-2 transition-colors focus:border-blue-500 focus:outline-none"
+        className="border border-gray-300 flex-1 p-1 mb-4 mr-2 text-black transition-colors focus:border-blue-500 focus:outline-none"
       />
       <label className="mb-2 mr-2 whitespace-nowrap">Email</label>
       <input
         type="email"
         name="user_email"
-        className="border border-gray-300 flex-1 p-1 mb-4 mr-2 transition-colors focus:border-blue-500 focus:outline-none"
+        className="border border-gray-300 flex-1 p-1 mb-4 mr-2 text-black transition-colors focus:border-blue-500 focus:outline-none"
       />
       <label className="mb-2 mr-2 whitespace-nowrap">Message</label>
       <textarea
         name="message"
-        className="border border-gray-300 flex-1 flex-basis-100 p-1 mb-4 mr-2 min-h-[100px] resize-none transition-colors focus:border-blue-500 focus:outline-none"
+        className="border border-gray-300 flex-1 flex-basis-100 p-1 mb-4 mr-2 min-h-[100px] resize-none text-black transition-colors focus:border-blue-500 focus:outline-none"
       />
       <input
         type="submit"

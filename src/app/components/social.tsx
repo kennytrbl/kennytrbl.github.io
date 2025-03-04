@@ -4,57 +4,25 @@ class Social extends Component {
   render() {
     return (
       <div className="flex items-center justify-center mt-6 w-full lg:items-start lg:justify-start lg:static lg:top-auto lg:w-[25%]">
-        <a
-          href="https://github.com/kennytrbl"
-          target="_blank"
-          className="mt-6 mr-8 lg:mt-4 lg:mr-5"
-        >
-          <svg
-            viewBox="0 0 16 16"
-            version="1.1"
-            aria-hidden="true"
-            fill="#dde6ed"
-            className="h-9 w-9 lg:h-6 lg:w-6"
-          >
+        <a href="https://github.com/kennytrbl" target="_blank" className="mt-6 mr-8 lg:mt-4 lg:mr-5">
+          <svg viewBox="0 0 16 16" version="1.1" aria-hidden="true" fill="#dde6ed" className="h-9 w-9 lg:h-6 lg:w-6">
             <path
               fillRule="evenodd"
               d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.20-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
             ></path>
           </svg>
         </a>
-        <a
-          href="https://www.linkedin.com/in/kennyzhang5/"
-          target="_blank"
-          className="mt-6 mr-8 lg:mt-4 lg:mr-5"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="#dde6ed"
-            className="h-9 w-9 lg:h-6 lg:w-6"
-          >
+        <a href="https://www.linkedin.com/in/kennyzhang5/" target="_blank" className="mt-6 mr-8 lg:mt-4 lg:mr-5">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#dde6ed" className="h-9 w-9 lg:h-6 lg:w-6">
             <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z" />
           </svg>
         </a>
-        <a
-          href="https://twitter.com/_kennyzhang"
-          target="_blank"
-          className="mt-6 mr-8 lg:mt-4 lg:mr-5"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="#dde6ed"
-            className="h-9 w-9 lg:h-6 lg:w-6"
-          >
+        <a href="https://twitter.com/_kennyzhang" target="_blank" className="mt-6 mr-8 lg:mt-4 lg:mr-5">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#dde6ed" className="h-9 w-9 lg:h-6 lg:w-6">
             <path d="M24 4.37a9.6 9.6 0 0 1-2.83.8 5.04 5.04 0 0 0 2.17-2.8c-.95.58-2 1-3.13 1.22A4.86 4.86 0 0 0 16.61 2a4.99 4.99 0 0 0-4.79 6.2A13.87 13.87 0 0 1 1.67 2.92 5.12 5.12 0 0 0 3.2 9.67a4.82 4.82 0 0 1-2.23-.64v.07c0 2.44 1.7 4.48 3.95 4.95a4.84 4.84 0 0 1-2.22.08c.63 2.01 2.45 3.47 4.6 3.51A9.72 9.72 0 0 1 0 19.74 13.68 13.68 0 0 0 7.55 22c9.06 0 14-7.7 14-14.37v-.65c.96-.71 1.79-1.6 2.45-2.61z" />
           </svg>
         </a>
-        <a
-          href="https://bsky.app/profile/kennyzhang.bsky.social"
-          target="_blank"
-          className="mt-6 mr-8 lg:mt-4 lg:mr-5"
-        >
+        <a href="https://bsky.app/profile/kennyzhang.bsky.social" target="_blank" className="mt-6 mr-8 lg:mt-4 lg:mr-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 360 320"
@@ -64,16 +32,8 @@ class Social extends Component {
             <path d="M180 142c-16.3-31.7-60.7-90.8-102-120C38.5-5.9 23.4-1 13.5 3.4 2.1 8.6 0 26.2 0 36.5c0 10.4 5.7 84.8 9.4 97.2 12.2 41 55.7 55 95.7 50.5-58.7 8.6-110.8 30-42.4 106.1 75.1 77.9 103-16.7 117.3-64.6 14.3 48 30.8 139 116 64.6 64-64.6 17.6-97.5-41.1-106.1 40 4.4 83.5-9.5 95.7-50.5 3.7-12.4 9.4-86.8 9.4-97.2 0-10.3-2-27.9-13.5-33C336.5-1 321.5-6 282 22c-41.3 29.2-85.7 88.3-102 120Z" />
           </svg>
         </a>
-        <a
-          href="https://stats.fm/kenny"
-          target="_blank"
-          className="mt-6 mr-8 lg:mt-4 lg:mr-5"
-        >
-          <svg
-            viewBox="0 0 512 512"
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-9 w-9 lg:h-6 lg:w-6"
-          >
+        <a href="https://stats.fm/kenny" target="_blank" className="mt-6 mr-8 lg:mt-4 lg:mr-5">
+          <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" className="h-9 w-9 lg:h-6 lg:w-6">
             <path
               fill="#dde6ed"
               d="M77.7698 151.964H31.8607C14.3745 151.964 0.199219 166.169 0.199219 183.691V477.17C0.199219 494.691 14.3745 508.896 31.8607 508.896H77.7698C95.256 508.896 109.431 494.691 109.431 477.17V183.691C109.431 166.169 95.256 151.964 77.7698 151.964Z"

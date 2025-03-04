@@ -6,19 +6,11 @@ class LeftPanel extends Component {
   render() {
     return (
       <div className="float-none w-full lg:float-left lg:w-[40%] xl:w-[30%]">
-        <p className="font-bold leading-none mb-4 mt-4 text-4xl tracking-tight">
-          Hello,
-        </p>
-        <p>
-          My name is Kenny Zhang. I recently graduated from the University of
-          California, San Diego with a degree in Mathematics and Computer
-          Science.
-        </p>
+        <p className="font-bold leading-none mb-4 mt-4 text-4xl tracking-tight">Hi,</p>
+        <p>I am Kenny Zhang, a recent Mathematics and Computer Science graduate from UC San Diego.</p>
         <p className="mb-4 mt-4">
-          I am searching for a software engineering position with a company that
-          encourages personal development, growth, and teamwork. These values
-          are critical to my development as a software engineer. If you are an
-          employer, check out my{" "}
+          I am looking for a software engineering role with a company that values growth, teamwork, and development. If
+          you are hiring, check out my{" "}
           <a
             href="https://drive.google.com/file/d/1br1CkeR1LAKvVavwHvzdjrBExILcaOPs/view?usp=sharing"
             target="_blank"
@@ -26,31 +18,37 @@ class LeftPanel extends Component {
           >
             résumé
           </a>
-          .
+          . I also have multiple{" "}
+          <a
+            href="https://www.linkedin.com/in/kennyzhang5/details/recommendations/"
+            target="_blank"
+            className="text-[#1ce0e0] text-decoration-none hover:underline"
+          >
+            LinkedIn recommendations
+          </a>{" "}
+          highlighting my skills and contributions.
         </p>
         <p className="mb-4 mt-4">
-          My main priority right now is honing my technical interview skills. To
-          sharpen my programming skills, I frequently build Github projects in
-          various languages.
+          I spend my time building projects in various languages and practicing technical problems to sharpen my skills.
         </p>
         <p>
-          When I am not at the computer, I enjoy listening to{" "}
+          Outside of coding, I enjoy{" "}
           <a
-            href="https://www.youtube.com/watch?v=eelfrHtmk68"
+            href="https://stats.fm/kenny"
             target="_blank"
             className="text-[#1ce0e0] text-decoration-none hover:underline"
           >
             Korean music
           </a>
-          , watching{" "}
+          ,{" "}
           <a
             href="https://www.netflix.com/title/81707950"
             target="_blank"
             className="text-[#1ce0e0] text-decoration-none hover:underline"
           >
-            Korean dramas
+            K-dramas
           </a>{" "}
-          and{" "}
+          ,{" "}
           <a
             href="https://www.youtube.com/watch?v=xf-zV1uTkW0&t=203s"
             target="_blank"
@@ -58,7 +56,7 @@ class LeftPanel extends Component {
           >
             basketball
           </a>
-          , consuming{" "}
+          ,{" "}
           <a
             href="https://www.youtube.com/@mkbhd"
             target="_blank"
@@ -66,11 +64,24 @@ class LeftPanel extends Component {
           >
             tech news
           </a>
-          , and volunteer with AAPI groups in the San Francisco Bay Area.
+          , and{" "}
+          <a
+            href="https://www.instagram.com/reel/DDWNTSXxdvl/"
+            target="_blank"
+            className="text-[#1ce0e0] text-decoration-none hover:underline"
+          >
+            volunteering
+          </a>{" "}
+          with AAPI groups in the Bay Area.
         </p>
-        <p className="font-bold leading-none mt-4 text-lg tracking-tight">
-          Listening to:
+        <p className="mb-4 mt-4">
+          Got any song recommendations, cool projects, or just want to connect? Drop me a message through the{" "}
+          <a href="#contact" className="text-[#1ce0e0] text-decoration-none hover:underline">
+            contact form
+          </a>
+          —I would love to hear from you!
         </p>
+        <p className="font-bold leading-none mt-4 text-lg tracking-tight">Listening to:</p>
         <NowPlaying />
         <Carousel />
       </div>

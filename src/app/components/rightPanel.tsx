@@ -7,9 +7,7 @@ class RightPanel extends Component {
   render() {
     return (
       <div className="min-h-screen w-full lg:float-right lg:w-[55%] xl:w-[65%]">
-        <p className="font-bold leading-none mb-4 mt-4 text-4xl tracking-tight">
-          Projects
-        </p>
+        <p className="font-bold leading-none mb-4 mt-4 text-4xl tracking-tight">Projects</p>
         <p>
           More projects on{" "}
           <a
@@ -22,14 +20,10 @@ class RightPanel extends Component {
           .
         </p>
         <ProjectList />
-        <p className="font-bold leading-none mb-4 mt-6 text-4xl tracking-tight">
-          Volunteer Organizations
-        </p>
-        <p className="mb-2">
-          Here is a list of organizations for which I volunteer for.
-        </p>
+        <p className="font-bold leading-none mb-4 mt-6 text-4xl tracking-tight">Volunteer Organizations</p>
+        <p className="mb-2">Here is a list of organizations for which I volunteer for.</p>
         <OrganizationList />
-        <p className="font-bold leading-none mb-4 mt-6 text-4xl tracking-tight">
+        <p id="contact" className="font-bold leading-none mb-4 mt-6 text-4xl tracking-tight">
           Contact Me
         </p>
         <Contact />
