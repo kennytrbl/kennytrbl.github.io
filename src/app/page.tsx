@@ -6,10 +6,10 @@ import Social from "./components/social";
 
 export default function Home() {
   return (
-    <div className="justify-center mx-auto text-[#9db2bf] text-lg w-[90%] lg:text-base">
+    <main className="justify-center mx-auto text-[#9db2bf] text-lg w-[95%] max-w-7xl lg:text-base min-h-screen py-8">
       <LeftPanel />
       <RightPanel />
       <Social />
-    </div>
+    </main>
   );
 }

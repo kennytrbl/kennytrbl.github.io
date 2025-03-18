@@ -18,23 +18,24 @@ const Carousel = () => {
       setSlideIndex((prevIndex) => (prevIndex + 1) % images.length);
     };
 
-    const intervalId = setInterval(carousel, 2000);
+    const intervalId = setInterval(carousel, 3000);
 
     return () => clearInterval(intervalId);
   }, [images.length]);
 
   return (
-    <div className="flex items-center justify-start mt-6">
+    <div className="flex items-center justify-start mt-6 relative overflow-hidden h-80 w-full">
       {images.map((image, index) => (
         <Image
-          alt=""
+          alt={`Volunteering image ${index + 1}`}
           src={image}
           height={500}
           width={500}
           key={index}
-          className="h-80 object-contain"
-          priority={index === slideIndex}
-          style={{ display: slideIndex === index ? "block" : "none" }}
+          className={`h-80 w-full object-contain absolute transition-opacity duration-500 ease-in-out ${
+            slideIndex === index ? "opacity-100" : "opacity-0"
+          }`}
+          priority={index === slideIndex || index === (slideIndex + 1) % images.length}
         />
       ))}
     </div>
