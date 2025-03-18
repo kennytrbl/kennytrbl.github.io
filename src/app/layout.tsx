@@ -38,6 +38,12 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         <link rel="preconnect" href="https://xysaswoufwhmmdoyufwh.supabase.co" />
         <link rel="dns-prefetch" href="https://xysaswoufwhmmdoyufwh.supabase.co" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body className="min-h-screen overflow-x-hidden">
         <ScrollReset />

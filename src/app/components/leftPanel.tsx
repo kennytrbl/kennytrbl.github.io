@@ -46,8 +46,8 @@ class LeftPanel extends Component {
             target="_blank"
             className="text-[#1ce0e0] text-decoration-none hover:underline"
           >
-            K-dramas
-          </a>{" "}
+            Kdramas
+          </a>
           ,{" "}
           <a
             href="https://www.youtube.com/watch?v=xf-zV1uTkW0&t=203s"
