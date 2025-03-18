@@ -35,7 +35,9 @@ const Carousel = () => {
           className={`h-80 w-full object-contain absolute transition-opacity duration-500 ease-in-out ${
             slideIndex === index ? "opacity-100" : "opacity-0"
           }`}
-          priority={index === slideIndex || index === (slideIndex + 1) % images.length}
+          priority={index === 0}
+          loading={index === 0 ? "eager" : "lazy"}
+          quality={75}
         />
       ))}
     </div>

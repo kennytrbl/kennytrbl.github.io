@@ -49,7 +49,7 @@ function Contact() {
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         form.current!,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
       )
       .then(
         () => {
@@ -58,7 +58,7 @@ function Contact() {
         },
         () => {
           alert("Failed to send email. Please try again.");
-        }
+        },
       );
   };
 

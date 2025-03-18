@@ -11,7 +11,7 @@ export async function fetchSpotifyData(): Promise<[string, string] | undefined> 
     }
 
     const response = await axios.get(
-      `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${lastfmUser}&api_key=${lastfmApiKey}&format=json&limit=1`
+      `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${lastfmUser}&api_key=${lastfmApiKey}&format=json&limit=1`,
     );
 
     const data = response.data.recenttracks.track?.[0];

@@ -20,7 +20,15 @@ const Project: React.FC<ProjectProps> = ({ image, name, link, description }) => 
         before:rounded-md before:bg-[#202b33]/30 before:opacity-100 before:transition-opacity before:duration-300 
         before:hover:opacity-0"
       >
-        <Image alt="" src={image} height={160} width={160} className="block object-cover rounded lg:h-48 lg:w-48" />
+        <Image
+          alt={`${name} project preview`}
+          src={image}
+          height={160}
+          width={160}
+          className="block object-cover rounded lg:h-48 lg:w-48"
+          loading="lazy"
+          quality={75}
+        />
         <div className="absolute bg-black/50 bottom-2 left-2 right-2 m-0 pt-1 pl-2 rounded text-white z-10">{name}</div>
       </a>
     </div>
