@@ -63,7 +63,7 @@ function Contact() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="flex flex-col max-w-[500px] w-full">
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col max-w-[500px] pb-12 w-full">
       <label className="mb-2 mr-2 whitespace-nowrap">Name</label>
       <input
         type="text"

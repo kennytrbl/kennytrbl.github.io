@@ -15,15 +15,16 @@ export const metadata: Metadata = {
       "Experienced Software Engineer specializing in Full Stack Development, with expertise in Web Technologies and a passion for building scalable solutions.",
     type: "website",
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-  },
   robots: {
     index: true,
     follow: true,
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function RootLayout({
