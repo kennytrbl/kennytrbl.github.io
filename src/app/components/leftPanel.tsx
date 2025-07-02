@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Carousel from "./carousel";
-import NowPlaying from "./nowPlaying";
 
 class LeftPanel extends Component {
   render() {
@@ -81,8 +80,6 @@ class LeftPanel extends Component {
           </a>
           —I would love to hear from you!
         </p>
-        <p className="font-bold leading-none mt-4 text-lg tracking-tight">Listening to:</p>
-        <NowPlaying />
         <Carousel />
       </div>
     );
